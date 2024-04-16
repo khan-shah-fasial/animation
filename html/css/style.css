@@ -1,0 +1,442 @@
+body {
+    background: #dcdddf;
+    overflow-x: hidden;
+   font-family: "UniviaPro" !important;
+}
+
+.amsterdam_font
+{
+    font-family: "Amsterdam Four_ttf";
+    font-size: 40px;
+    position: relative;
+    top: -6px;
+}
+
+.amsterdam_font1
+{
+    font-family: "Amsterdam Four_ttf";
+}
+
+.peachy_flightoe_font
+{
+    font-family: "Peachy Flightoe";
+}
+
+.trajanPro_regular
+{
+    font-family: "TrajanPro-Regular";
+}
+.font50
+{
+    font-size:50px;
+}
+
+.font26
+{
+    font-size:26px;
+}
+.text-justify
+{
+    text-align:justify;
+}
+.float_right
+{
+    float:right;
+}
+.main_logo {
+    position: absolute;
+    z-index: 1;
+    left: 50px;
+    top: 50px;
+}
+.main_logo img {
+    width: 120px;
+}
+
+.color_white
+{
+    color:#fff;
+}
+
+.black_white
+{
+    color:#000;
+}
+.padd0
+{
+    padding:0px;
+}
+/* services section css open */
+.services_bg {
+    background-image: url(/html/image/services_img1.jpg);
+}
+
+.services_box {
+    padding: 50px;
+    height: 330px;
+    padding-top:80px;
+}
+
+.img_height
+{
+    height:330px;
+    object-fit:cover
+}
+
+.img_height1
+{
+    height:660px;
+    object-fit:cover
+}
+.services_bg_gray
+{
+    background:#bdbec2;
+}
+
+wordtune-read-extension {
+    display: none;
+}
+
+.border_2:before {
+    background-image: url(/html/image/border-top.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: "";
+    height: 69px;
+    width: 100%;
+    position: relative;
+    bottom: -63px;
+    display: block;
+    left: 0;
+    z-index: 1;
+}
+
+.border_3:after {
+    background-image: url(/html/image/border-bottom.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: "";
+    height: 69px;
+    width: 100%;
+    position: relative;
+    bottom: 57px;
+    display: block;
+    left: 0;
+    z-index: 1;
+}
+.border_1:after {
+    background-image: url(/html/image/border-bottom.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: "";
+    height: 69px;
+    width: 100%;
+    position: relative;
+    bottom: 57px;
+    display: block;
+    left: 0;
+    z-index: 1;
+}
+.pddleftright
+{
+    padding:0px 100px;
+}
+/*--services bottom css open--*/
+.services_section .container
+{
+    max-width:1600px;
+}
+.bottom_services .container
+{
+    max-width:1600px;
+}
+.bottom_services .box{
+    background: #000;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.bottom_services .box:hover:before{
+    width: calc(100% - 50px);
+    height: calc(100% - 50px);
+}
+.bottom_services .box img{
+    width: 100%;
+    height: auto;
+    transition: all 0.35s;
+}
+.bottom_services .box:hover img{
+    opacity: 0.3;
+}
+.bottom_services .box .box-content{
+       color: #fff;
+    margin: 0 auto;
+    position: absolute;
+    top: 58%;
+    left: 25px;
+    right: 25px;
+    z-index: 2;
+    transition: all 0.4s ease;
+    padding: 0px 100px;
+}
+.bottom_services .box:hover .box-content{ 
+    opacity: 1;
+}
+.bottom_services .box:hover .box-content {
+    top: 40%;
+}
+.bottom_services .box .title{
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0 0 2px;
+}
+.bottom_services .box .post{
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-style: italic;
+    margin: 0 0 20px;
+    display: block;
+}
+
+.banner_section .carousel-caption {
+      top: 30% !important;
+    text-align: left;
+}
+
+span.fontsize_middle {
+    font-size: 5rem;
+}
+
+span.fontsize_small {
+    font-size: 2em;
+}
+
+span.fontsize_big {
+    font-size: 10em;
+    display: block;
+    position: relative;
+    top: -44px;
+}
+
+.font-size100 {
+    font-size: 12em;
+    position: relative;
+    top: -78%;
+    left: 36%;
+}
+
+.banner_section .carousel-indicators [data-bs-target] {
+    width: 13px !important;
+    height: 13px !important;
+}
+.carousel-indicators {
+    bottom: 70px !important;
+}
+/*--footer css open--*/
+
+.footer_center i {
+    height: 30px;
+    width: 30px;
+    border: 2px solid #333;
+    line-height: 27px;
+    border-radius: 50px;
+}
+
+.footer_center a {
+    color: #333;
+}
+
+
+/*-- about us page css--*/
+.header_title {
+    position: absolute;
+}
+.header_title {
+       position: absolute;
+    margin-left: 80px;
+    margin-top: -97px;
+    color: #fff;
+}
+
+.about_signature {
+    width: 600px;
+    position: absolute;
+    margin-top: -208px;
+    margin-left: 21%;
+}
+.about_between {
+    padding: 70px 77px;
+}
+
+.about_between h4 {font-size: 30px;text-align: center;line-height: 47px;}
+
+.border_bottom1 {
+   background-image: url(/html/image/about-border.png);
+    background-position: center;
+    background-size: cover;
+    height: 90px;
+}
+
+.mt120
+{
+    margin-top:-120px;
+}
+.font30
+{
+    font-size:29px;
+    line-height:47px;
+}
+.bg_darkgray
+{
+    background:#2d2d2d;
+}
+.about_middle_section:before {
+    bottom: 0px;
+}
+.about_middle_section:after {
+    bottom: 0px;
+}
+.about_middle_section{
+    padding: 0px 0px;
+}
+hr {
+    opacity: 0.5;
+    color: #fff;
+}
+
+.vission_title
+{
+    color: #fff;
+    text-align: end;
+    font-size: 66px;
+    position: absolute;
+    z-index: 11;
+    right: 0;
+    top: 92%; 
+}
+
+.about_img_vission:after {
+        background-image: url(/html/image/starrating1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+    height: 174px;
+    width: 100%;
+    position: absolute;
+    top: -39px;
+    display: block;
+    left: -225px;
+    z-index: 1;
+}
+   
+   
+   .about_img_vission:before {
+    background-image: url(/html/image/starrating2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+    height: 83px;
+    width: 100%;
+    position: absolute;
+    bottom: -20px;
+    display: block;
+    left: -184px;
+    z-index: 1;
+}
+.about_circle img
+{
+    width: 501px;
+    float: right;
+}
+
+.design_heading
+{
+        font-size: 114px;
+    width: 100%;
+    position: absolute;
+    top: 18rem;
+    line-height: 100px;
+    margin-left: -40px;
+}
+
+.design_den .about_circle
+{
+    position:relative;
+}
+.design_den {
+    padding: 80px 0px;
+}
+
+/** Gallery Page CSS open **/
+
+.our_work_bg 
+{
+    background-image: url(/html/image/gallery_BG.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gallery_img img {
+    width: 80%;
+}
+.gallery_img {
+    margin: 0px 40px;
+}
+.gallery_content h5 {
+    color: #fff;
+     font-size: 42px;
+}
+.gallery_content {
+    position: relative;
+    top: -39px;
+}
+.gallery_content a {
+    color: #fff;
+    text-decoration: none;
+}
+.gallery_content i {
+    border: 1px solid #fff;
+    width: 25px;
+    text-align: center;
+    height: 26px;
+    line-height: 25px;
+    border-radius: 50px;
+    font-size: 14px;
+    margin-left:5px;
+}
+.gallery_box_section .col-md-6:nth-child(even) .gallery_box_inner {
+    margin-top: 30px;
+}
+.gallery_box_section .col-md-6:nth-child(odd) .gallery_box_inner {
+    margin-top: -100px;
+}
+.gallery_box_section .col-md-6:nth-child(odd) .gallery_box_inner .gallery_content {
+    text-align: end;
+    padding-right: 200px;
+}
+.gallery_box_section .col-md-6:nth-child(even) .gallery_box_inner .gallery_content {
+    text-align: left;
+    padding-left: 200px;
+}
+
+.gallery_box_section .col-md-6:nth-child(odd) .gallery_box_inner .gallery_img img {
+    margin-left: auto;
+    display: block;
+}
+.gallery_box_section {
+    padding: 150px 0px;
+}
+.gallery_box_section.border_2:before {
+    bottom: 150px ;
+}
+.gallery_box_section.border_3:after {
+    bottom: -150px;
+}
